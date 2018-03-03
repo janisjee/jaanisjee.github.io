@@ -1,0 +1,333 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+
+html body{
+
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+	padding: 0;
+	height:100%;
+	width: 100%;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+	color: #2C2C2C;
+	font-size: 90%;
+	line-height: 150%;
+	text-align: justify;
+	font-weight: 250; 
+}
+
+h1{
+    text-align: center;
+    padding-bottom: 2%;
+}
+
+
+#profile {
+    width: 80%;
+
+    padding: 10px;
+    font-family: calibri;
+    font-size: 18px;
+    color: #444;
+    margin: 0 auto;
+    
+}
+
+
+#xp {
+    width: 80%;
+
+    padding: 10px;
+    font-family: calibri;
+    font-size: 18px;
+    color: #444;
+    margin: 0 auto;
+    
+
+    max-height: 67px;
+    overflow: hidden;
+
+    -webkit-transition: max-height 0.7s;
+    -moz-transition: max-height 0.7s;
+    transition: max-height 0.7s;
+}
+#xp1 {
+    width: 80%;
+    padding: 25px;
+    font-family: calibri;
+    font-size: 18px;
+    color: #444;
+    margin: 0 auto;
+    
+
+    max-height: 67px;
+    overflow: hidden;
+
+    -webkit-transition: max-height 0.7s;
+    -moz-transition: max-height 0.7s;
+    transition: max-height 0.7s;
+}
+#xp2 {
+    width: 80%;
+
+    padding: 25px;
+    font-family: calibri;
+    font-size: 18px;
+    color: #444;
+    margin: 0 auto;
+    
+
+    max-height: 67px;
+    overflow: hidden;
+
+    -webkit-transition: max-height 0.7s;
+    -moz-transition: max-height 0.7s;
+    transition: max-height 0.7s;
+}
+#xp3 {
+    width: 80%;
+
+    padding: 25px;
+    font-family: calibri;
+    font-size: 18px;
+    color: #444;
+    margin: 0 auto;
+    
+
+    max-height: 67px;
+    overflow: hidden;
+
+    -webkit-transition: max-height 0.7s;
+    -moz-transition: max-height 0.7s;
+    transition: max-height 0.7s;
+}
+#xp.open {
+
+    max-height: 1000px;
+
+    width: 80%;
+
+    -webkit-transition: max-height 0.7s;
+    -moz-transition: max-height 0.7s;
+    transition: max-height 0.7s;
+}
+#xp1.open {
+
+    max-height: 1000px;
+
+    width: 80%;
+
+    -webkit-transition: max-height 0.7s;
+    -moz-transition: max-height 0.7s;
+    transition: max-height 0.7s;
+}
+#xp2.open {
+
+    max-height: 1000px;
+
+    width: 80%;
+
+    -webkit-transition: max-height 0.7s;
+    -moz-transition: max-height 0.7s;
+    transition: max-height 0.7s;
+}
+#xp3.open {
+
+    max-height: 1000px;
+
+    width: 80%;
+
+    -webkit-transition: max-height 0.7s;
+    -moz-transition: max-height 0.7s;
+    transition: max-height 0.7s;
+}
+#show-more {
+    color: #2f2f2f;
+    font-family: calibri;
+    float: right;
+    font-size: 100%;
+    padding-top: 0%;
+    padding-right: 8%;
+    width: 125px;
+    text-align: right;
+    margin: 12.5px auto;
+    cursor: pointer; 
+}
+#show-more1 {
+    color: #2f2f2f;
+    font-family: calibri;
+    float: right;
+    font-size: 100%;
+    padding-top: 0%;
+    padding-right: 8%;
+    width: 125px;
+    text-align: right;
+    margin: 12.5px auto;
+    cursor: pointer; 
+}
+#show-more2 {
+    color: #2f2f2f;
+    font-family: calibri;
+    float: right;
+    font-size: 100%;
+    padding-top: 0%;
+    padding-right: 8%;
+    width: 125px;
+    text-align: right;
+    margin: 12.5px auto;
+    cursor: pointer; 
+}
+#show-more3 {
+    color: #2f2f2f;
+    font-family: calibri;
+    float: right;
+    font-size: 100%;
+    padding-top: 0%;
+    padding-right: 8%;
+    width: 125px;
+    text-align: right;
+    margin: 12.5px auto;
+    cursor: pointer; 
+}
+#projects {
+    width: 80%;
+
+    padding: 10px;
+    font-family: calibri;
+    font-size: 18px;
+    color: #444;
+    margin: 0 auto;
+    
+}
+#events {
+    width: 80%;
+
+    padding: 10px;
+    font-family: calibri;
+    font-size: 18px;
+    color: #444;
+    margin: 0 auto;
+    
+}
+
+img {
+	text-align: center;
+	max-width: 100%;
+	height: auto;
+	width: auto;
+}
+
+.gallery {
+    width: 80%;
+    padding: 10px;
+    margin: 0 auto;
+}
+
+.gallery-image {
+    width: 29.333333%;
+    padding: 2%;
+    float: left;
+    
+    
+}
+
+.gallery-image img:hover {
+    opacity: .6;
+    
+}
+
+#contact {
+    width: 80%;
+
+    padding: 10px;
+    font-family: calibri;
+    font-size: 18px;
+    color: #444;
+    margin: 0 auto;
+    
+}
+
+.clearfix {
+    clear: both;
+    height: 50px;
+    
+}
+
+/* BACKGROUND */
+
+.parallax {
+    background-image: url("images/spears0.jpg");
+    opacity: .5;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax-inner {
+    padding-top: 20%;
+}
+
+
+/* NAV MENU */
+
+nav {
+    float: left;
+    padding-left: 5% 5% 0 0;
+    height: 50px;
+}
+nav ul {
+    list-style: none;
+    float: left;
+}
+nav ul li {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 120%;
+}
+nav ul li a {
+    color: rgb(7, 5, 5);
+    text-decoration: none;
+}
+nav ul li a:hover {
+    text-decoration: underline;
+}
+nav ul, nav:active ul {
+    padding: 8px 0;
+    width: 20%;
+    z-index: 1000;
+}
+nav li {
+    width: 100%;
+    padding: 8px 0 10px 7px;
+    margin: 0; 
+}
+nav:hover ul {
+    display: block;
+    position: absolute;
+}
+#menu-icon {
+    width: 30px;
+    height: 26px;
+    background: url("images/nav-icon.png") center;
+    display: inline-block;
+    margin: 50px 0 0 50px;
+
+}
+
+/* end NAV */
+
+
+.intro {
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    background: url();
+    background-size: cover;
+    display: table;
+    top: 0;
+}
