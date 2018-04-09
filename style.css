@@ -23,7 +23,6 @@ p {
 
 h1{
     text-align: center;
-    padding-bottom: 2%;
 }
 
 
@@ -46,57 +45,7 @@ h1{
     font-family: calibri;
     font-size: 18px;
     color: #444;
-    margin: 0 auto;
-    
-
-    max-height: 67px;
-    overflow: hidden;
-
-    -webkit-transition: max-height 0.7s;
-    -moz-transition: max-height 0.7s;
-    transition: max-height 0.7s;
-}
-#xp1 {
-    width: 80%;
-    padding: 25px;
-    font-family: calibri;
-    font-size: 18px;
-    color: #444;
-    margin: 0 auto;
-    
-
-    max-height: 67px;
-    overflow: hidden;
-
-    -webkit-transition: max-height 0.7s;
-    -moz-transition: max-height 0.7s;
-    transition: max-height 0.7s;
-}
-#xp2 {
-    width: 80%;
-
-    padding: 25px;
-    font-family: calibri;
-    font-size: 18px;
-    color: #444;
-    margin: 0 auto;
-    
-
-    max-height: 67px;
-    overflow: hidden;
-
-    -webkit-transition: max-height 0.7s;
-    -moz-transition: max-height 0.7s;
-    transition: max-height 0.7s;
-}
-#xp3 {
-    width: 80%;
-
-    padding: 25px;
-    font-family: calibri;
-    font-size: 18px;
-    color: #444;
-    margin: 0 auto;
+    margin: 10px 7%;
     
 
     max-height: 67px;
@@ -116,82 +65,17 @@ h1{
     -moz-transition: max-height 0.7s;
     transition: max-height 0.7s;
 }
-#xp1.open {
 
-    max-height: 1000px;
-
-    width: 80%;
-
-    -webkit-transition: max-height 0.7s;
-    -moz-transition: max-height 0.7s;
-    transition: max-height 0.7s;
-}
-#xp2.open {
-
-    max-height: 1000px;
-
-    width: 80%;
-
-    -webkit-transition: max-height 0.7s;
-    -moz-transition: max-height 0.7s;
-    transition: max-height 0.7s;
-}
-#xp3.open {
-
-    max-height: 1000px;
-
-    width: 80%;
-
-    -webkit-transition: max-height 0.7s;
-    -moz-transition: max-height 0.7s;
-    transition: max-height 0.7s;
-}
 #show-more {
     color: #2f2f2f;
     font-family: calibri;
     float: right;
     font-size: 100%;
-    padding-top: 0%;
+    padding-top: 1%;
     padding-right: 8%;
     width: 125px;
     text-align: right;
-    margin: 12.5px auto;
-    cursor: pointer; 
-}
-#show-more1 {
-    color: #2f2f2f;
-    font-family: calibri;
-    float: right;
-    font-size: 100%;
-    padding-top: 0%;
-    padding-right: 8%;
-    width: 125px;
-    text-align: right;
-    margin: 12.5px auto;
-    cursor: pointer; 
-}
-#show-more2 {
-    color: #2f2f2f;
-    font-family: calibri;
-    float: right;
-    font-size: 100%;
-    padding-top: 0%;
-    padding-right: 8%;
-    width: 125px;
-    text-align: right;
-    margin: 12.5px auto;
-    cursor: pointer; 
-}
-#show-more3 {
-    color: #2f2f2f;
-    font-family: calibri;
-    float: right;
-    font-size: 100%;
-    padding-top: 0%;
-    padding-right: 8%;
-    width: 125px;
-    text-align: right;
-    margin: 12.5px auto;
+    margin: auto;
     cursor: pointer; 
 }
 #projects {
